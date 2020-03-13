@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+body,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+input,
+li,
+ol,
+p,
+table,
+td,
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: none;
+}
+li {
+  list-style: none;
+}
+input,
+select,
+textarea {
+  outline: none;
+}
+textarea {
+  resize: none;
+}
+a {
+  text-decoration: none;
+}
+/*清浮动*/
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+.infoTextAndGoPageBtnWrap {
+  display: none;
+}
+.pageBtnWrap {
+  font-size: .6rem;
+  width: 11rem;
+  padding-left: 0;
+}
+body {
+  font-family: "微软雅黑";
+  position: relative;
+  background-color: #fff;
+}
+body * {
+  max-height: 999999px;
+}
+.top-bar {
+  width: 100%;
+  position: relative;
+}
+.top-bar .search-logo {
+  display: block;
+  width: 7rem;
+  height: 2rem;
+  margin: 1rem auto 1rem;
+  background: url(../img/logo.png) no-repeat center center;
+  background-size: 7rem;
+}
+.top-bar #search-container .search-bar {
+  width: 13rem;
+  box-shadow: 0 .1rem .2rem 0 rgba(0, 0, 0, 0.17), 0 0 0 2px rgba(0, 0, 0, 0.08);
+  margin: 0 auto;
+}
+.top-bar #search-container .search-bar #search-input {
+  width: 11rem;
+  height: 1.7rem;
+  box-sizing: border-box;
+  line-height: 1.7rem;
+  padding: 0 0.3rem;
+  font-size: 0.6rem;
+  float: left;
+  border: none;
+  letter-spacing: 0.04rem;
+}
+.top-bar #search-container .search-bar #search-btn {
+  float: left;
+  width: 2rem;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  box-sizing: border-box;
+  background: url(../img/search.png) no-repeat center center;
+  background-size: 1rem 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 0.6rem;
+  color: #fff;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
+}
+.top-bar #search-container .suggesst-words {
+  display: none;
+  position: absolute;
+  left: .97rem;
+  top: 4.7rem;
+  width: 13rem;
+  background-color: #fff;
+  font-size: 0.6rem;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+.top-bar #search-container .suggesst-words li {
+  cursor: pointer;
+  padding: 0 0.4rem;
+  height: 1rem;
+  line-height: 1rem;
+}
+.top-bar #search-container .suggesst-words li:hover {
+  background-color: #D9DDE2;
+}
+.top-bar #search-container .suggesst-words li.active {
+  background-color: #3366CC;
+  color: #fff;
+}
+.top-bar .bar-right {
+  display: none;
+}
+.search-result {
+  width: 13rem;
+  margin: 0.8rem auto 0;
+  box-sizing: border-box;
+  padding-bottom: 3rem;
+}
+.search-result .result-cat {
+  height: 1.3rem;
+  text-align: center;
+  line-height: 1.3rem;
+  font-size: 0;
+}
+.search-result .result-cat span {
+  cursor: pointer;
+  color: #F02C2C;
+  display: inline-block;
+  text-align: center;
+  padding: 0 .4rem;
+  margin-right: .6rem;
+  font-size: .6rem;
+  border-radius: .2rem;
+  -moz-border-radius: .2rem;
+  -webkit-border-radius: .2rem;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.search-result .result-cat span.active {
+  color: #fff;
+  background-color: #F02C2C;
+}
+.search-result .result-detail10993hhh {
+  padding: 0 1rem;
+  margin-top: 0.5rem;
+  color: #333;
+}
+.search-result .result-detail10993hhh li {
+  font-size: 0;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #d9dde1;
+}
+.search-result .result-detail10993hhh li span {
+  display: block;
+  font-size: 0.6rem;
+  margin-bottom: 0.2rem;
+}
+.search-result .result-detail10993hhh li a {
+  font-size: 0.6rem;
+  color: #333;
+}
+.search-result .result-detail10993hhh li a:hover {
+  color: #F01414;
+  text-decoration: underline;
+}
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 1rem;
+  font-size: 0.5rem;
+}
+.footer p {
+  text-align: center;
+  line-height: 1rem;
+}
+.footer p a {
+  color: #000;
+  font-size: 0.5rem;
+  margin-left: 0.2rem;
+}
+.footer p a:hover {
+  text-decoration: underline;
+}
+#youhuiq {
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  color: #8a6d3b;
+  display: block;
+  font-size: .6rem;
+  margin-top: .5rem;
+  border-radius: .2rem;
+}
+#youhuiq img {
+  width: 100%;
+}
+#daikuan img {
+  width: 100%;
+}
+/*# sourceMappingURL=m_result.css.map */
